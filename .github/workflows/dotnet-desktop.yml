@@ -64,7 +64,7 @@ jobs:
       run: msbuild Crypto-maniac-fps.sln /t:Restore
 
     
-     - name: Build solution
+    - name: Build solution
       run: dotnet build Crypto-maniac-fps.sln -c Release
 
     - name: Run unit tests
