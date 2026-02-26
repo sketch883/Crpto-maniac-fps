@@ -61,7 +61,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Restore solution
-      run: msbuild Crpto-maniac-fps.sln /t:Restore
+      run: msbuild Crypto-maniac-fps.sln /t:Restore
 
     
      - name: Build solution
