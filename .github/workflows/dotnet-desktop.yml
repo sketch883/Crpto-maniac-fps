@@ -65,13 +65,13 @@ jobs:
 
     
      - name: Build solution
-      run: dotnet build Crpto-maniac-fps.sln -c Release
+      run: dotnet build Crypto-maniac-fps.sln -c Release
 
     - name: Run unit tests
-      run: dotnet test Crpto-maniac-fps/Crpto-maniac-fps.csproj --no-build --verbosity normal
+      run: dotnet test Crypto-maniac-fps/Crypto-maniac-fps.csproj --no-build --verbosity normal
 
     - name: Publish app
-      run: dotnet publish Crpto-maniac-fps/Crpto-maniac-fps.csproj -c Release -o publish
+      run: dotnet publish Crypto-maniac-fps/Crypto-maniac-fps.csproj -c Release -o publish
 
     - name: Upload packaged build
       uses: actions/upload-artifact@v4
