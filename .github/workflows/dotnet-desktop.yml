@@ -77,4 +77,3 @@ jobs:
       with:
         name: CryptoManiac-Build
         path: publish
-
